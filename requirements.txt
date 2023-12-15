@@ -4,6 +4,6 @@ requests==2.25.1
 pymongo==3.11.3
 flask-apscheduler==1.12.3
 dnspython
-waitress
+gunicorn
 itsdangerous<2.0.1
 werkzeug==2.0.3
