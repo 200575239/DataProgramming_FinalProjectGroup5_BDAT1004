@@ -233,11 +233,11 @@
                     row.append('<td>' + data[i].rank + '</td>');
                     row.append('<td>' + data[i].name + '</td>');
                     row.append('<td>' + data[i].symbol + '</td>');
-		    row.append('<td>' + data[i].priceUsd + '</td>');
                     row.append('<td>' + data[i].supply + '</td>');
                     row.append('<td>' + data[i].maxSupply + '</td>');
                     row.append('<td>' + data[i].marketCapUsd + '</td>');
                     row.append('<td>' + data[i].volumeUsd24Hr + '</td>');
+		    row.append('<td>' + data.priceUsd + '</td>');
                     row.append('<td>' + data[i].changePercent24Hr + '</td>');
 
                     // Add alternating black and white colors
@@ -251,11 +251,11 @@
                 row.append('<td>' + data.rank + '</td>');
                 row.append('<td>' + data.name + '</td>');
                 row.append('<td>' + data.symbol + '</td>');
-		row.append('<td>' + data.priceUsd + '</td>');
                 row.append('<td>' + data.supply + '</td>');
                 row.append('<td>' + data.maxSupply + '</td>');
                 row.append('<td>' + data.marketCapUsd + '</td>');
                 row.append('<td>' + data.volumeUsd24Hr + '</td>');
+		row.append('<td>' + data.priceUsd + '</td>');
                 row.append('<td>' + data.changePercent24Hr + '</td>');
 
                 tbody.append(row);
